@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p The API supports the following actions
+
+  ul
+    each api in apis
+      li= api
+    else
+      li There are no API
