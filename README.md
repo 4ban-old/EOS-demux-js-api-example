@@ -3,6 +3,8 @@ The API example for getting the data from MongoDB.
 
 An example of API to access two different collections in MongoDB and output the result in json format.
 
+> Example of demux-js daemon for this API you can find [here](https://github.com/4ban/EOS-demux-js-example)
+
 ## Install
 Install dependencies: `npm install`
 Fill the `.env` file.
