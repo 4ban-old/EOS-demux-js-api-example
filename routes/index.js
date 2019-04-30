@@ -6,10 +6,12 @@ router.get('/', function(req, res, next) {
     title: 'Demux-api',
     apis: [
       '/                      - List of API',
-      '/eos                   - Does nothing',
-      '/ledger                - Does nothing',
-      '/eos/<AccountName>     - History for EOS account',
-      '/ledger/<wallet>   - History for Ledger wallet',
+      '/col1                   - Do nothing',
+      '/col2                - Do nothing',
+      '/col1/<AccountName>     - History for account 1',
+      '/col2/<AccountName>   - History for account 2',
+      '/col1/stats/<AccountName>     - Stats for account 1',
+      '/col2/stats/<AccountName>   - Stats for account 2',
     ]
   });
 });
