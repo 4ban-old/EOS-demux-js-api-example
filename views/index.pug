@@ -5,8 +5,8 @@ block content
   p Welcome to #{title}
   p The API supports the following actions
 
-  ul
+  table(style='width:50%', border='1')
     each api in apis
-      li= api
-    else
-      li There are no API
+      tr
+        td=api.split('-')[0]
+        td=api.split('-')[1]
