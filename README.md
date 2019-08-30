@@ -1,4 +1,6 @@
 # demux-api
+[<img src="https://raw.githubusercontent.com/4ban/EOS-demux-js-api-example/master/.github/black_img.png">](https://www.buymeacoffee.com/4ban)
+
 The API example for getting the data from MongoDB.
 
 There are 2 identical routes to demonstrate easy modifications to use different models and functions.
